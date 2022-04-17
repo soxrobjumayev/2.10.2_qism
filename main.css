@@ -1,0 +1,31 @@
+h2{
+   /* background: linear-gradient(red green);
+   -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text; */
+}
+
+.h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+    font-size: 100px;
+    color: rgb(255, 0, 0) ;
+
+    animation:  NT 1s 1s infinite;
+}
+
+
+@keyframes NT {
+
+    0%,100%{
+        transform: scale(1);
+        transform: skew(15deg);
+        
+    }
+    50%{
+        transform: scale(1.1);
+        color: rgb(33, 158, 46) ;
+    }
+
+    
+}
